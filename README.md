@@ -30,5 +30,7 @@ $ gedit local_costmap_params.yaml
 ```
 
 ### After changing parameters in amcl.launch, relaunch amcl.launch
+```bash
 $ roslaunch udacity_bot amcl.launch
 $ rosrun udacity_bot navigation_goal
+```
