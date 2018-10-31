@@ -1,0 +1,2 @@
+rtab_map
+-DCATKIN_DEVEL_PREFIX=/home/workspace/catkin_ws/RoboND-Rtabmap/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/catkin_ws/RoboND-Rtabmap/install -G Unix Makefiles
