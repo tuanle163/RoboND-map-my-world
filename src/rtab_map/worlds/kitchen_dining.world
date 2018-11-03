@@ -4,7 +4,8 @@
     <!-- place user camera -->
     <gui>
       <camera name="user_camera">
-        <pose> 6.0 -18.0 10.0 0.000000 0.45 1.8</pose>
+        <!-- <pose> 6.0 -18.0 10.0 0.000000 0.45 1.8</pose> -->
+        <pose frame=''>-9.94336 0.169537 15.274 0 1.002 -0.004</pose>
       </camera>
     </gui>
     <include>

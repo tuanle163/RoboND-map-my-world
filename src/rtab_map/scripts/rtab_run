@@ -1,0 +1,54 @@
+#! /bin/bash
+
+echo ' '
+read -p 'Would you like to clear the previous map database? (y/n): ' ansinput
+
+if [ “$ansinput” = “y” ]
+then
+ printf '\n Map deleted \n'
+ rm -f ~/.ros/rtabmap.db
+
+elif [ “$ansinput” = “n” ]
+then
+ printf '\n Map kept \n'
+
+else
+ echo 'Warning: Not an acceptable option. Choose (y/n).
+         '
+fi
+
+echo ' '
+
+read -p 'Enter target world: 1 for kitchen or 2 for personal: ' input_choice
+
+if [ “$input_choice” = “1” ]
+then
+ x-terminal-emulator -x roslaunch rtab_map kitchen_dining.world 2>/dev/null 
+
+elif [ “$ansinput” = “2” ]
+then
+ x-terminal-emulator -x roslaunch rtab_map my_personal.world 2>/dev/null 
+
+else
+ echo 'Warning: Not an acceptable option. Choose (1 or 2).
+         '
+fi
+
+sleep 3 &&
+
+x-terminal-emulator -x roslaunch rtab_map teleop.launch 2>/dev/null 
+
+sleep 3 &&
+
+echo ' '
+read -p 'Press any key to continue to mapping... ' -n1 -s
+
+x-terminal-emulator -x roslaunch rtab_map mapping.launch simulation:=true 2>/dev/null 
+
+sleep 3 &&
+
+x-terminal-emulator -e roslaunch rtab_map rviz.launch 2>/dev/null
+
+echo ' '
+echo 'Script Completed'
+echo ' '

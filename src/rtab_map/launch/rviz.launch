@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- For visualising your robots map bulding in RVIZ -->
-
 <launch>
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find slam_project)/launch/config/robot_slam.rviz"/>
+  
+  <!-- For visualising your robots map bulding in RVIZ -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rtab_map)/launch/config/robot_slam.rviz"/>
+
 </launch>

@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/catkin_ws/RoboND-Rtabmap/src/rtab_map
+# Install script for directory: /home/tuanle/rtab_map/RoboND-map-my-world/src/rtab_map
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkin_ws/RoboND-Rtabmap/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tuanle/rtab_map/RoboND-map-my-world/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,37 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot/cmake" TYPE FILE FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/build/rtab_map/catkin_generated/installspace/udacity_bot-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tuanle/rtab_map/RoboND-map-my-world/build/rtab_map/catkin_generated/installspace/rtab_map.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/devel/share/roseus/ros/udacity_bot")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/workspace/catkin_ws/RoboND-Rtabmap/devel/lib/python2.7/dist-packages/udacity_bot")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/devel/lib/python2.7/dist-packages/udacity_bot")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/build/rtab_map/catkin_generated/installspace/udacity_bot.pc")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot/cmake" TYPE FILE FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/build/rtab_map/catkin_generated/installspace/udacity_bot-msg-extras.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot/cmake" TYPE FILE FILES
-    "/home/workspace/catkin_ws/RoboND-Rtabmap/build/rtab_map/catkin_generated/installspace/udacity_botConfig.cmake"
-    "/home/workspace/catkin_ws/RoboND-Rtabmap/build/rtab_map/catkin_generated/installspace/udacity_botConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtab_map/cmake" TYPE FILE FILES
+    "/home/tuanle/rtab_map/RoboND-map-my-world/build/rtab_map/catkin_generated/installspace/rtab_mapConfig.cmake"
+    "/home/tuanle/rtab_map/RoboND-map-my-world/build/rtab_map/catkin_generated/installspace/rtab_mapConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/udacity_bot" TYPE FILE FILES "/home/workspace/catkin_ws/RoboND-Rtabmap/src/rtab_map/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtab_map" TYPE FILE FILES "/home/tuanle/rtab_map/RoboND-map-my-world/src/rtab_map/package.xml")
 endif()
 

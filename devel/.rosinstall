@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/workspace/catkin_ws/RoboND-Rtabmap/devel/setup.sh
+    local-name: /home/tuanle/rtab_map/RoboND-map-my-world/devel/setup.sh

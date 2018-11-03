@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+  <node pkg="rtab_map" type="teleop_key" name="teleop_keyboard"  output="screen">
+    <remap from="teleop_keyboard/cmd_vel" to="/cmd_vel"/>
+  </node>
+
+</launch>

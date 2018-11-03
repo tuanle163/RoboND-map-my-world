@@ -1,6 +1,6 @@
-The system is: Linux - 4.15.0-1015-gcp - x86_64
+The system is: Linux - 4.15.0-36-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler: /home/linuxbrew/.linuxbrew/bin/cc 
 Build flags: 
 Id flags: 
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
+Compiler: /home/linuxbrew/.linuxbrew/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -23,105 +23,101 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd89f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd89f.dir/build.make CMakeFiles/cmTC_bd89f.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd89f.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_bd89f.dir/testCCompiler.c.o   -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_bd89f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd89f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bd89f.dir/testCCompiler.c.o  -o cmTC_bd89f -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b95fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b95fa.dir/build.make CMakeFiles/cmTC_b95fa.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b95fa.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_b95fa.dir/testCCompiler.c.o   -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b95fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b95fa.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_b95fa.dir/testCCompiler.c.o  -o cmTC_b95fa -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8a770/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8a770.dir/build.make CMakeFiles/cmTC_8a770.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8a770
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a770.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o  -o cmTC_8a770 -rdynamic  
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_0359e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0359e.dir/build.make CMakeFiles/cmTC_0359e.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0359e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0359e.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc      -v CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o  -o cmTC_0359e -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --with-isl=/home/linuxbrew/.linuxbrew/opt/isl@0.18 --with-bugurl=https://github.com/Linuxbrew/homebrew-core/issues --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0_4' --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a770' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp9hC41.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8a770 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+gcc version 5.5.0 (Homebrew gcc 5.5.0_4) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0359e' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsZLyJM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_0359e /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8a770/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8a770.dir/build.make CMakeFiles/cmTC_8a770.dir/build]
-  ignore line: [make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8a770]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a770.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o  -o cmTC_8a770 -rdynamic  ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0359e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0359e.dir/build.make CMakeFiles/cmTC_0359e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0359e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0359e.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc      -v CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o  -o cmTC_0359e -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --with-isl=/home/linuxbrew/.linuxbrew/opt/isl@0.18 --with-bugurl=https://github.com/Linuxbrew/homebrew-core/issues --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0_4' --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a770' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp9hC41.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8a770 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+  ignore line: [gcc version 5.5.0 (Homebrew gcc 5.5.0_4) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0359e' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsZLyJM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_0359e /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccp9hC41.res] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsZLyJM.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/] ==> ignore
-    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-zrelro] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8a770] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [cmTC_0359e] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_8a770.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_0359e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -131,39 +127,36 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ab4d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ab4d.dir/build.make CMakeFiles/cmTC_1ab4d.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1ab4d.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1ab4d.dir/feature_tests.c.o   -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1ab4d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ab4d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1ab4d.dir/feature_tests.c.o  -o cmTC_1ab4d -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_efd18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efd18.dir/build.make CMakeFiles/cmTC_efd18.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efd18.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c11 -o CMakeFiles/cmTC_efd18.dir/feature_tests.c.o   -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_efd18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efd18.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_efd18.dir/feature_tests.c.o  -o cmTC_efd18 -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +166,17 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_afa95/fast"
-/usr/bin/make -f CMakeFiles/cmTC_afa95.dir/build.make CMakeFiles/cmTC_afa95.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_afa95.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_afa95.dir/feature_tests.c.o   -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_afa95
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afa95.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_afa95.dir/feature_tests.c.o  -o cmTC_afa95 -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cac88/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cac88.dir/build.make CMakeFiles/cmTC_cac88.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cac88.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c99 -o CMakeFiles/cmTC_cac88.dir/feature_tests.c.o   -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cac88
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cac88.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_cac88.dir/feature_tests.c.o  -o cmTC_cac88 -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +186,17 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_edc08/fast"
-/usr/bin/make -f CMakeFiles/cmTC_edc08.dir/build.make CMakeFiles/cmTC_edc08.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_edc08.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_edc08.dir/feature_tests.c.o   -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_edc08
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc08.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_edc08.dir/feature_tests.c.o  -o cmTC_edc08 -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5251f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5251f.dir/build.make CMakeFiles/cmTC_5251f.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5251f.dir/feature_tests.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -std=c90 -o CMakeFiles/cmTC_5251f.dir/feature_tests.c.o   -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5251f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5251f.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_5251f.dir/feature_tests.c.o  -o cmTC_5251f -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,102 +204,98 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_476fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_476fd.dir/build.make CMakeFiles/cmTC_476fd.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_476fd.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_476fd.dir/testCXXCompiler.cxx.o -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_476fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_476fd.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_476fd.dir/testCXXCompiler.cxx.o  -o cmTC_476fd -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d84be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d84be.dir/build.make CMakeFiles/cmTC_d84be.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d84be.dir/testCXXCompiler.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_d84be.dir/testCXXCompiler.cxx.o -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d84be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84be.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_d84be.dir/testCXXCompiler.cxx.o  -o cmTC_d84be -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c7072/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c7072.dir/build.make CMakeFiles/cmTC_c7072.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c7072
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7072.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c7072 -rdynamic  
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_e7345/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7345.dir/build.make CMakeFiles/cmTC_e7345.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o
+/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e7345
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7345.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++       -v CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7345 -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --with-isl=/home/linuxbrew/.linuxbrew/opt/isl@0.18 --with-bugurl=https://github.com/Linuxbrew/homebrew-core/issues --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0_4' --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7072' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3RfQYx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c7072 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+gcc version 5.5.0 (Homebrew gcc 5.5.0_4) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7345' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckSvhg4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_e7345 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c7072/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c7072.dir/build.make CMakeFiles/cmTC_c7072.dir/build]
-  ignore line: [make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c7072]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7072.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c7072 -rdynamic  ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e7345/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e7345.dir/build.make CMakeFiles/cmTC_e7345.dir/build]
+  ignore line: [make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++      -o CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e7345]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7345.dir/link.txt --verbose=1]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++       -v CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e7345 -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --with-isl=/home/linuxbrew/.linuxbrew/opt/isl@0.18 --with-bugurl=https://github.com/Linuxbrew/homebrew-core/issues --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0_4' --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c7072' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3RfQYx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c7072 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+  ignore line: [gcc version 5.5.0 (Homebrew gcc 5.5.0_4) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/x86_64-linux-gnu/:/lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7345' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckSvhg4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTC_e7345 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. -L/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3RfQYx.res] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckSvhg4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/] ==> ignore
-    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-zrelro] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c7072] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [cmTC_e7345] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_c7072.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTC_e7345.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,39 +303,36 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_4/lib;/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/linuxbrew/.linuxbrew/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6ce32/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6ce32.dir/build.make CMakeFiles/cmTC_6ce32.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6ce32.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_6ce32.dir/feature_tests.cxx.o -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6ce32
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ce32.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6ce32.dir/feature_tests.cxx.o  -o cmTC_6ce32 -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_414a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_414a1.dir/build.make CMakeFiles/cmTC_414a1.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_414a1.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++14 -o CMakeFiles/cmTC_414a1.dir/feature_tests.cxx.o -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_414a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414a1.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_414a1.dir/feature_tests.cxx.o  -o cmTC_414a1 -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +395,17 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6c1cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6c1cc.dir/build.make CMakeFiles/cmTC_6c1cc.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6c1cc.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_6c1cc.dir/feature_tests.cxx.o -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6c1cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1cc.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6c1cc.dir/feature_tests.cxx.o  -o cmTC_6c1cc -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_68f36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68f36.dir/build.make CMakeFiles/cmTC_68f36.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68f36.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++11 -o CMakeFiles/cmTC_68f36.dir/feature_tests.cxx.o -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_68f36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68f36.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_68f36.dir/feature_tests.cxx.o  -o cmTC_68f36 -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +468,17 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_11490/fast"
-/usr/bin/make -f CMakeFiles/cmTC_11490.dir/build.make CMakeFiles/cmTC_11490.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_11490.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_11490.dir/feature_tests.cxx.o -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_11490
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11490.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_11490.dir/feature_tests.cxx.o  -o cmTC_11490 -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_171c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_171c3.dir/build.make CMakeFiles/cmTC_171c3.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_171c3.dir/feature_tests.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -std=c++98 -o CMakeFiles/cmTC_171c3.dir/feature_tests.cxx.o -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_171c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_171c3.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTC_171c3.dir/feature_tests.cxx.o  -o cmTC_171c3 -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +539,30 @@ make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMake
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3dd2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3dd2.dir/build.make CMakeFiles/cmTC_c3dd2.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c3dd2.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c3dd2.dir/CheckIncludeFile.c.o   -c /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c3dd2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3dd2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c3dd2.dir/CheckIncludeFile.c.o  -o cmTC_c3dd2 -rdynamic 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0b20e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b20e.dir/build.make CMakeFiles/cmTC_0b20e.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b20e.dir/CheckIncludeFile.c.o
+/home/linuxbrew/.linuxbrew/bin/cc     -o CMakeFiles/cmTC_0b20e.dir/CheckIncludeFile.c.o   -c /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b20e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b20e.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTC_0b20e.dir/CheckIncludeFile.c.o  -o cmTC_0b20e -rdynamic 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp
+Change Dir: /home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f94a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f94a6.dir/build.make CMakeFiles/cmTC_f94a6.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f94a6.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f94a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f94a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f94a6.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f94a6.dir/CheckFunctionExists.c.o  -o cmTC_f94a6 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/workspace/catkin_ws/RoboND-Rtabmap/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aa714/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa714.dir/build.make CMakeFiles/cmTC_aa714.dir/build
+make[1]: Entering directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa714.dir/CheckFunctionExists.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa714.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa714.dir/link.txt --verbose=1
+/home/linuxbrew/.linuxbrew/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aa714.dir/CheckFunctionExists.c.o  -o cmTC_aa714 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/tuanle/rtab_map/RoboND-map-my-world/build/CMakeFiles/CMakeTmp'
 
 

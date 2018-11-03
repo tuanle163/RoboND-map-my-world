@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkin_ws/RoboND-Rtabmap/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tuanle/rtab_map/RoboND-map-my-world/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/workspace/catkin_ws/RoboND-Rtabmap/build/gtest/gtest/cmake_install.cmake")
+  include("/home/tuanle/rtab_map/RoboND-map-my-world/build/gtest/gtest/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.4">
+
+  <world name="default">
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- World camera -->
+    <gui fullscreen='0'>
+      <camera name='world_camera'>
+        <pose frame=''>0.082317 -1.17293 0.374945 0 0.175643 1.62019</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>

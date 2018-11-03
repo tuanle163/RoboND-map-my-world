@@ -7,7 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/local/cuda-9.0/lib64:/usr/lib/x86_64-linux-gnu:/usr/lib:/usr/local/lib/x86_64-linux-gnu:/usr/local/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu"
-export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
-export PWD="/home/workspace/catkin_ws/RoboND-Rtabmap/build"
-export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
+export LD_LIBRARY_PATH="/home/tuanle/fast_slam/catkin_ws/devel/lib:/home/tuanle/where_am_i/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/home/tuanle/fast_slam/catkin_ws/devel/lib/pkgconfig:/home/tuanle/where_am_i/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
+export PWD="/home/tuanle/rtab_map/RoboND-map-my-world/build"

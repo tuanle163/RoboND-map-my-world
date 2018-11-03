@@ -1,0 +1,8 @@
+prefix=/home/tuanle/rtab_map/RoboND-map-my-world/devel
+
+Name: rtab_map
+Description: Description of rtab_map
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tuanle/rtab_map/RoboND-map-my-world/devel/lib 
+Requires: 
